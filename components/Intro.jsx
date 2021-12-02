@@ -1,10 +1,13 @@
 import Image from "next/image";
 import React from "react";
 import styles from "../styles/Intro.module.css";
+import Circle from "./Circle";
 
 const Intro = () => {
   return (
     <div className={styles.container}>
+      <Circle backgroundColor="#01c686" top="-45vh" left="-45vh" />
+      <Circle backgroundColor="#01c686" right="-40vh" />
       <div className={styles.card}>
         <h1 className={styles.title}>
           <span className={styles.brand}>AVOCADO</span> DIGITAL PRODUCT AGENCY
