@@ -12,9 +12,7 @@ const Product = ({ product }) => {
             <Image
               src={img.url}
               alt=""
-              width="100%"
-              height="100%"
-              layout="responsive"
+              layout="fill"
             />
           </div>
         ))}
